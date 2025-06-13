@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Laura Mello - Paty Tech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family:'Helvetica Neue', sans-serif;
+            background: #ffffff;
+            color: #ff69b4;
+        }
+        header {
+            background: #ff69b4;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #ffe9f3;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        nav a {
+            color: #ff9cc9;
+            text-decoration: none;
+            padding: 10px 30px;
+            border: 2px solid #ff9cc9;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #ff9cc9;
+            color: rgb(255, 255, 255);
+        }
+        main {
+            padding: 85px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        main h2 {
+            color: #ff69b4;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px;
+        }
+        .card {
+            background: none;
+            padding: 20px;
+            border: 2px solid #ff9cc9;
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px #ff9cc9;
+        }
+        footer {
+            background: #ffe9f3;
+            color: #ff9cc9;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laura Mello</h1>
+        <p>Designer | Desenvolvedora | HTML, CSS, JavaScript</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Sou uma desenvolvedora cheia de estilo, que adora dar um toque fofo e autêntico ao código! Me especializando em HTML, CSS, JavaScript e tentando deixar o mundo da programação mais colorido, não apenas rosa!. 🌍💕</p>
+            <p></p>
+        </section>
+
+        <section id="habilidades">
+            <p></p>
+            <h2>Habilidades</h2>
+            <div class="container">
+                <div class="card"><strong>HTML</strong> - Estrutura da web</div>
+                <div class="card"><strong>CSS</strong> - Estilização, cores e fontes</div>
+                <div class="card"><strong>JavaScript</strong> - Uma pitada de interação</div>
+                <div class="card"><strong>Design</strong> - Combinar estilo e função</div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="container">
+                <div class="card"><strong>Gato Gamer</strong> - Site fofo pra um gatinho pixelado</div>
+                <div class="card"><strong>LIMfólio</strong> - Meu próprio portfólio</div>
+                <div class="card"><strong>Outros</strong> - Outros projetos chegando em breve</div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Gostou? Siga <strong>@lim_mello</strong> para mais conteúdos rosas assim!</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Laura Mello - Acadêmica 🌸
+    </footer>
+</body>
+</html>
